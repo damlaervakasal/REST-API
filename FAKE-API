@@ -1,0 +1,30 @@
+#FAKE-API
+
+### Fake REST API oluşturmanın avantajları:
+
+Frontend (Ön yüz) tarafı hazır olan bir uygulamayı test etmek isteyebiliriz.
+Yapmayı düşündüğümüz bir Backend (Arka yüz) çalışması için bir prototip oluşturmak isteyebiliriz.
+Postman gibi bir API platformunda farklı HTTP metotlarına ait istekler gerçekleştirmek isteyebiliriz.
+FAKE REST API oluşturmak için json-server npm paketi kullanacağız.
+
+Bu linki inceleyebilirsin : https://github.com/typicode/json-server
+
+- <b> npm init </b>
+komutu ile package.json dosyası oluşturacağız.
+
+- <b> npm i json-server </b>
+komutu ile json-server paketini indiriyoruz.
+
+- API için kullanacağımız örnek JSON dosyasını oluşturacağımız api klasörünün içerisinde yerleştiriyoruz.
+Projemizde bulunan package.json dosyası içerisindeki script bölümünü aşağıdaki şekilde güncelliyoruz. 
+
+-  "scripts": {
+    "start:server": "json-server --watch api/employees.json"
+  },
+  
+ 
+Bu sayede aşağıdaki komut ile FAKE API çalışmaya başlayacak.
+- npm run start:server
+
+
+
