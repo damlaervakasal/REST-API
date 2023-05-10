@@ -95,6 +95,7 @@ REST Mimarisinde HTTP'nin Rolü
 REST mimarisinin prensiplerinden ilki istemci - sunucu çalışma modelidir. Biz bir istekte bulunuruz ve sunucu isteğimize karşılık olan durumu (state) bize bir sunum (presentation) olarak gönderir. HTTP protokolü burada bu sunum transferi için kurulan iletişimin kurallarını belirler. REST mimarisine uygun API'ların neredeyse tamamında HTTP protokolü kullanılır.
 
 HTTP Request
+
 ![png2](https://github.com/damlaervakasal/REST-API/blob/main/png/2.png)
 1- request line: 
 burada kullanılacak olan HTTP metodu/ gidilicek olan PAD (dosya yolu)    ve  HTTP versiyon belirtilir.
@@ -107,6 +108,7 @@ yukarıdaki
 id... olan yazarı da o olan kitaba ait verileri istiyor
 
 HTTP Response 
+
 ![png3](https://github.com/damlaervakasal/REST-API/blob/main/png/3.png)
 1- Status Line
 Burada verilen protokol versiyonu ve HTTP status kod döner. Yani başarılı olup olmadığına dair bir bilgi döner.
